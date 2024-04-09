@@ -41,6 +41,30 @@ class Cow : public Animal
 	}
 };
 
+class Tiger : public Animal
+{
+	void Rar()
+	{
+		std::cout << "rar\n";
+	}
+};
+
+class Turtle : public Animal
+{
+	void trrr()
+	{
+		std::cout << "trrrr\n";
+	}
+};
+
+class Sheep : public Animal
+{
+	void Beee()
+	{
+		std::cout << "Beee\n";
+	}
+};
+
 int main()
 {
 	
